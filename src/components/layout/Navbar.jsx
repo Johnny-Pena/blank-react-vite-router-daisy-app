@@ -56,20 +56,27 @@ export default function Navbar() {
               role="menu"
               className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow mb-14">
               <li role="menuitem"><Link to="/" className="text-xl font-bold">Home</Link></li>
-              <li role="menuitem"><Link to="/bio" className="text-xl font-bold">Bio</Link></li>
-              <li role="menuitem"><Link to="/contactus" className="text-xl font-bold">Contact</Link></li>
+              <li role="menuitem"><Link to="/aboutme" className="text-xl font-bold">About Me</Link></li>
+              <li role="menuitem"><Link to="/resume" className="text-xl font-bold">Resume</Link></li>
+              <li role="menuitem"><Link to="/classroom-structure" className="text-xl font-bold">Classroom Structure</Link></li>
+              <li role="menuitem"><Link to="/classroom-instruction" className="text-xl font-bold">Classroom Instruction</Link></li>
+              <li role="menuitem"><Link to="/strategies-for-success" className="text-xl font-bold">Go To Page</Link></li>
             </ul>
           </div>
        <Link to="/" className="btn btn-ghost text-xl flex items-center">
-        <span className="sm:inline ml-4">Name</span>
+        <span className="sm:inline ml-4">Johnny Peña</span>
       </Link>
         </div>
         <div className="navbar-center hidden xl:flex">
           <ul className="menu menu-horizontal px-1 text-sm font-medium sm:text-lg" role="menubar">
 
             <li role="menuitem"><Link to="/">Home</Link></li>
-            <li role="menuitem"><Link to="/bio">Bio</Link></li> 
-            <li role="menuitem"><Link to="/contactus">Contact</Link></li>
+            <li role="menuitem"><Link to="/aboutme">About Me</Link></li> 
+            <li role="menuitem"><Link to="/resume">Resume</Link></li>
+            <li role="menuitem"><Link to="/classroom-structure">Classroom Structure</Link></li>
+            <li role="menuitem"><Link to="/classroom-instruction">Classroom Instruction</Link></li>
+            <li role="menuitem"><Link to="/strategies-for-success">Strategies for Success</Link></li>
+      
           </ul>
         </div>
         <div className="navbar-end">

@@ -1,0 +1,31 @@
+export default function LessonPlanSample() {
+    return (
+        <div className="max-w-4xl mx-auto p-6">
+            <div className="card bg-white shadow-xl border-t-4 border-emerald-500">
+                <div className="card-body">
+                    <h2 className="card-title text-2xl text-emerald-600 mb-4">Sample Lesson Delivery Plan</h2>
+                    <div className="bg-emerald-50 p-4 rounded-lg">
+                        <div className="overflow-hidden rounded-lg border-2 border-emerald-200 shadow-lg">
+                            <iframe 
+                                src="src/assets/DeliveryPlan(JuanPena).pdf"
+                                className="w-full h-96 md:h-[600px] lg:h-[700px]"
+                                title="Sample Lesson Delivery Plan by Juan Peña"
+                                style={{ border: 'none' }}
+                            />
+                        </div>
+                        <div className="text-center mt-4">
+                            <a 
+                                href="src/assets/DeliveryPlan(JuanPena).pdf" 
+                                target="_blank" 
+                                rel="noopener noreferrer"
+                                className="btn btn-primary"
+                            >
+                                📄 Open in New Tab
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    );
+}
